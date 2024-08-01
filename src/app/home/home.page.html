@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Capacitor Barcode scanner Demo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-button (click)="scanBarcode()">Scan Barcode</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-text>Scanned code: {{ barcodeValue }} </ion-text>
+  </ion-item>
+</ion-content>
